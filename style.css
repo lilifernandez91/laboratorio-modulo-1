@@ -1,0 +1,98 @@
+:root {
+    --size: 16px;
+    --colorWhite: #ffffff;
+    --colorBlack: #212429;
+    --colorGray: #6b7380;
+    --font-family: 'Montserrat', sans-serif;
+    --capitalLetters: uppercase;
+}
+
+.container {
+    padding: 32px;
+    font-family: var(--font-family);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+     position: fixed;
+    border-bottom: 1px solid var(--colorBlack);
+}
+
+.nav-header {
+    display: flex;
+    gap: 32px;
+    text-transform: var(--capitalLetters);
+    color: var(--colorGray);
+}
+
+.nav-list {
+    list-style: none;
+    font-size: var(--size);
+}
+
+.icons-header {
+    display: flex;
+    gap: 40px;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.title-main {
+    text-transform: var(--capitalLetters);
+    font-size: 32px;
+    margin-right: auto;
+    padding: 16px;
+}
+
+.section-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.description-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.clothes {
+    text-transform: capitalize;
+}
+
+.footer {
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    position: fixed;
+}
+
+.content-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.img-footer {
+background-color: var(--colorWhite);
+border-radius: 50%;
+padding: 16px;
+}
+
+.description-footer {
+    text-transform: capitalize;
+}
