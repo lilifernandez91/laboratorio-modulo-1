@@ -27,7 +27,12 @@
 3. Pantalla completa en barra de navegación y footer.
 4. Barra de navegación mantenerse fija al hacer scroll.
 5. Hoja de estilo definida en un documento .css e importada desde un documento html.
-
+***
+#### Comentarios adicionales
+* He realizado el ejercicio respetando el diseño en resolución desktop. 
+* Además el contenido principal se adapta a diferentes resoluciones.
+* He modificado tanto la barra de navegación como el footer en resoluciones mobile y tablet.
+* He desplegado el proyecto en GitHub Pages.
 
 
 
